@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Sidebar } from '@/components/Sidebar';
 import { AlertTriangle, Shield, Clock, Search, Download, Eye, X, CheckCircle, AlertCircle, Info, XCircle } from 'lucide-react';
 
 const AlertsIncidentsPage = () => {
