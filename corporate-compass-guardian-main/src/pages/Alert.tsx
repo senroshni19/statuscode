@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Sidebar } from '@/components/Sidebar';
 import { AlertTriangle, Shield, Clock, Search, Download, Eye, X, CheckCircle, AlertCircle, Info, XCircle } from 'lucide-react';
 
 const AlertsIncidentsPage = () => {
@@ -142,7 +143,8 @@ const AlertsIncidentsPage = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 flex">
+        <Sidebar />
       {/* Header */}
       <div className="bg-white border-b border-gray-200 px-6 py-4">
         <div className="flex items-center justify-between">
