@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sidebar } from '@/components/Sidebar';
-
+import { EmailCampaigns } from '@/components/EmailCampaigns';
 
 const CampaignsPage = () => {
   return (
