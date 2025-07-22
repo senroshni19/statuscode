@@ -9,6 +9,8 @@ import MonitoringPage from "./pages/MonitoringPage";
 import NotFound from "./pages/NotFound";
 import CorporateMalpracticeSystem  from "./pages/CorporateMalpracticeSystem";
 import  Alert  from "./pages/Alert";
+import EmployeeDirectory from "./pages/EmployeeDirectory";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -24,6 +26,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="/corporate" element={<CorporateMalpracticeSystem />} />
           <Route path="/alerts" element={<><Alert /></>} />
+          <Route path="/employee-directory" element={<EmployeeDirectory />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
