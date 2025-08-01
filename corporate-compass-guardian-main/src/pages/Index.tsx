@@ -1,6 +1,7 @@
 import React from 'react';
 import { Sidebar } from '@/components/Sidebar';
 import { Dashboard } from '@/components/Dashboard';
+import { Toaster } from '@/components/ui/toaster';
 
 const Index = () => {
   return (
