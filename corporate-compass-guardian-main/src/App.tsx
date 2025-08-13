@@ -27,7 +27,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="/corporate" element={<CorporateMalpracticeSystem />} />
           <Route path="/alerts" element={<><Alert /></>} />
-          <Route path="/employee-directory" element={<><EmployeeDirectory /></>} />
+          <Route path="/employees" element={<><EmployeeDirectory /></>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
